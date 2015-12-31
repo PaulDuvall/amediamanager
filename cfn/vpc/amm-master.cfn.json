@@ -21,7 +21,7 @@
     },
     "KeyName": {
       "Description": "Name of an existing EC2 KeyPair to enable SSH access to the Elastic Beanstalk and Bastion hosts",
-      "Type": "String",
+      "Type":"AWS::EC2::KeyPair::KeyName",
       "MinLength": "1",
       "MaxLength": "255",
       "AllowedPattern": "[\\x20-\\x7E]*",
@@ -52,13 +52,13 @@
     },
     "VPCAvailabilityZone1": {
       "Description": "One of two Availability Zones that will be used to create subnets.",
-      "Type": "String",
+      "Type": "AWS::EC2::AvailabilityZone::Name",
       "MinLength": "1",
       "MaxLength": "255"
     },
     "VPCAvailabilityZone2": {
       "Description": "Two of two Availability Zones that will be used to create subnets. Must be different than VPCAvailabilityZone2.",
-      "Type": "String",
+      "Type": "AWS::EC2::AvailabilityZone::Name",
       "MinLength": "1",
       "MaxLength": "255"
     },
