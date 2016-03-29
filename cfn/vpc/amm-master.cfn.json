@@ -51,6 +51,7 @@
         "m3.xlarge",
         "m3.2xlarge",
         "c1.medium",
+        "c3.large",
         "c1.xlarge",
         "cc1.4xlarge",
         "cc2.8xlarge",
@@ -66,7 +67,6 @@
         "t1.micro",
         "m1.small",
         "m1.medium",
-        "c3.large",
         "m1.large",
         "m1.xlarge",
         "m2.xlarge",
@@ -76,6 +76,7 @@
         "m3.2xlarge",
         "c1.medium",
         "c1.xlarge",
+        "c3.large",
         "cc1.4xlarge",
         "cc2.8xlarge",
         "cg1.4xlarge"
@@ -117,7 +118,7 @@
     "DatabaseName":{
       "Description":"The name of the database",
       "Type":"String",
-      "Default":" amediamanager"
+      "Default":"amediamanager"
     },
     "AssetsBucketPrefix":{
       "Description":"The prefix of the S3 bucket where the application WAR is located. A region-specific suffix will be appended, e.g. AssetsBucketPrefix-us-east-1.",
