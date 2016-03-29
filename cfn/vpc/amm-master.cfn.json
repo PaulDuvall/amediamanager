@@ -37,12 +37,11 @@
     "BastionInstanceType":{
       "Description":"Bastion Host EC2 instance type",
       "Type":"String",
-      "Default":"c3.large",
+      "Default":"m3.xlarge",
       "AllowedValues":[
         "t1.micro",
         "m1.small",
         "m1.medium",
-        "c3.large",
         "m1.large",
         "m1.xlarge",
         "m2.xlarge",
@@ -51,7 +50,6 @@
         "m3.xlarge",
         "m3.2xlarge",
         "c1.medium",
-        "c3.large",
         "c1.xlarge",
         "cc1.4xlarge",
         "cc2.8xlarge",
@@ -62,7 +60,7 @@
     "NATInstanceType":{
       "Description":"NAT Device EC2 instance type",
       "Type":"String",
-      "Default":"c3.large",
+      "Default":"m3.xlarge",
       "AllowedValues":[
         "t1.micro",
         "m1.small",
@@ -76,7 +74,7 @@
         "m3.2xlarge",
         "c1.medium",
         "c1.xlarge",
-        "c3.large",
+        "m3.xlarge",
         "cc1.4xlarge",
         "cc2.8xlarge",
         "cg1.4xlarge"
@@ -133,12 +131,12 @@
     "InstanceType":{
       "Description":"The type of instance to use for EB app servers",
       "Type":"String",
-      "Default":"c3.large",
+      "Default":"m3.xlarge",
       "AllowedValues":[
         "t1.micro",
         "m1.small",
         "m1.medium",
-        "c3.large",
+        "m3.xlarge",
         "m1.large"
       ]
     },
